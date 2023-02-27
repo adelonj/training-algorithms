@@ -29,12 +29,12 @@ public class UglyNumber {
 
     @Test
     void test() {
-//        Assertions.assertFalse(isUgly(14));
-//        Assertions.assertTrue(isUgly(1));
-//        Assertions.assertTrue(isUgly(6));
-//        Assertions.assertFalse(isUgly(7));
-//        Assertions.assertFalse(isUgly(13));
-//        Assertions.assertFalse(isUgly(22));
+        Assertions.assertFalse(isUgly(14));
+        Assertions.assertTrue(isUgly(1));
+        Assertions.assertTrue(isUgly(6));
+        Assertions.assertFalse(isUgly(7));
+        Assertions.assertFalse(isUgly(13));
+        Assertions.assertFalse(isUgly(22));
         Assertions.assertFalse(isUgly(0));
     }
 
